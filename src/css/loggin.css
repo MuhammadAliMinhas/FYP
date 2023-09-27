@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_login_container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-areas: "left right";
+  overflow: hidden;
+}
+.left_login_container {
+  grid-area: left;
+  background-color: #ffffff;
+}
+.right_login_container {
+  grid-area: right;
+  background: linear-gradient(229deg, #a23f97, #612b7d, #612b7d);
+}
+.background_image_containerLogin{
+  position: absolute;
+}
+.center_imgLogin{
+  height: 70%;
+  width: 80%; 
+  transform: translateY(14%); 
+  margin-left:137%;
+}
+.emailInput{
+    border-radius: 38px;
+    outline: none;
+    border: 1px solid #ffffff;
+    height: 45px;
+    font-size: 14px;
+    background-color: #E4CCF1;
+    font-family: "Roboto", sans-serif;
+    text-indent: 12px;
+    color: #612b7d;
+    margin-left: 32%;
+    margin-bottom: 1%;
+    width: 39%;
+}
+::placeholder{
+  color: #666666;
+}
+.heading_containerLogin{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #612B7D;
+  margin-top: 24%;
+  margin-left: 30%;
+  font-size: 34px;
+  margin-bottom: 1%;
+}
+.forget{
+  color: #707070;
+  text-decoration: underline;
+  margin-left:55% ;
+}
+.Login_Btn {
+  margin-top: 1%;
+  width: 39%;
+  height: 45px;
+  border-radius: 38px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 32%;
+  color: #FFFFFF;
+  background-color: #612B7D;
+}
+.Google_Btn {
+  margin-top: 1%;
+  width: 39%;
+  height: 45px;
+  border-radius: 38px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #4F4F4F;
+  margin-left: 32%;
+  text-indent: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #707070;
+}
+.google{
+  height:40px;
+  margin-left: -45%;
+}
+#yend{
+  text-indent: 12px;
+}
+.hate_it::before{
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  background-color: #707070 ;
+  left: 0;
+  top: 50%;
+  margin-left: -34%;
+}
+.hate_it::after{
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  background-color: #707070 ;
+  right: 0;
+  top: 50%;
+  margin-right: 60%;
+}
+.hate_it{
+  position:relative;
+  margin-left: 50%;
+  color: #343434;
+  font-size: 15px;
+}
